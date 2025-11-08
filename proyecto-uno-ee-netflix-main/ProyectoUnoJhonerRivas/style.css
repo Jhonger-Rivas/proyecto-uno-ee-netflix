@@ -1,0 +1,211 @@
+/* 
+font-family: "Momo Trust Display", sans-serif; 
+font-weight: 400;
+font-style: normal;
+*/
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 11%;
+}
+
+.titulo {
+    width: 150px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 5%;
+    font-family: "Momo Trust Display", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu h1{
+    text-align: center;
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+
+.menu h3{
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.menu2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 10%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #dbcdcd;
+}
+
+.trending {
+    position: absolute;
+    top: 120%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-family: "Momo Trust Display", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pelicula {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 125%;
+    left: 15%;
+}
+
+.reasons {
+    position: absolute;
+    top: 180%;
+    left: 10%;
+        font-family: "Momo Trust Display", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.plantilla {
+    color: #000;
+    position: absolute;
+    top: 195%;
+    left: 11.5%;
+    font-family: "Momo Trust Display", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.plantilla2 {
+    color: #000;
+    position: absolute;
+    top: 195%;
+    left: 29.5%;
+    font-family: "Momo Trust Display", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.plantilla3 {
+    color: #000;
+    position: absolute;
+    top: 195%;
+    left: 48.7%;
+        font-family: "Momo Trust Display", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.plantilla4 {
+    color: #000;
+    position: absolute;
+    top: 195%;
+    left: 67.5%;
+        font-family: "Momo Trust Display", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.questions {
+    position: absolute;
+    top: 250%;
+    left: 10%;
+
+}
+
+.questions2 {
+    position: absolute;
+    top: 260%;
+    left: 10%;
+}
+
+.ready {
+    position: absolute;
+    top: 330%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.Address {
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 10%;
+    transform: translate(-50%, -50%);
+}
+
+.questions3 {
+    position: absolute;
+    top: 370%;
+    left: 10%;
+}
+
+.questions4 {
+    position: absolute;
+    top: 377%;
+    left: 35%;
+}
+
+.questions5 {
+    position: absolute;
+    top: 377%;
+    left: 55%;
+}
+
+.questions6 {
+    position: absolute;
+    top: 377%;
+    left: 75%;
+}
+
+.English {
+    position: absolute;
+    top: 410%;
+    left: 10%;
+}
