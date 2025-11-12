@@ -7,7 +7,7 @@ font-style: normal;
 /* 
     font-family: "Stack Sans Headline", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 1000;
+    font-weight: 400;
     font-style: normal;
 */
 
@@ -150,7 +150,7 @@ a:hover {
 .trending {
     position: absolute;
     top: 120%;
-    left: 18%;
+    left: 15%;
     transform: translate(-50%, -50%);
     text-align: left;
     letter-spacing: 1.5px;
@@ -161,26 +161,123 @@ a:hover {
 }
 
 .pelicula {
+    display: block;
+    gap: 30px;
+    position: absolute;
+    top: 125%;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.pelicula:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.pelicula2 {
     display: flex;
     gap: 30px;
     position: absolute;
     top: 125%;
-    left: 15%;
+    left: 27%;
+    border-radius: 10px;
+}
+
+.pelicula2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.pelicula3 {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 125%;
+    left: 44%;
+    border-radius: 10px;
+}
+
+.pelicula3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.pelicula4 {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 125%;
+    left: 61.2%;
+    border-radius: 10px;
+}
+
+.pelicula4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.pelicula5 {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 125%;
+    left: 78.3%;
+    border-radius: 10px;
+}
+
+.pelicula5:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.5s ease;
 }
 
 .reasons {
     position: absolute;
     top: 180%;
     left: 10%;
-    font-family: "Momo Trust Display", sans-serif; 
-    font-weight: 400;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
+    letter-spacing: 2px;
+}
+
+.reasons2 {
+    position: absolute;
+    top: 190%;
+    left: 10%;
+    border-radius: 15px;
+}
+
+.reasons3 {
+    position: absolute;
+    top: 190%;
+    left: 30.5%;
+    border-radius: 15px;
+}
+
+.reasons4 {
+    position: absolute;
+    top: 190%;
+    left: 51%;
+    border-radius: 15px;
+}
+
+.reasons5 {
+    position: absolute;
+    top: 190%;
+    left: 71.5%;
+    border-radius: 15px;
 }
 
 .plantilla {
     color: #000;
     position: absolute;
-    top: 195%;
+    top: 190%;
     left: 11.5%;
     font-family: "Momo Trust Display", sans-serif; 
     font-weight: 400;
@@ -190,8 +287,8 @@ a:hover {
 .plantilla2 {
     color: #000;
     position: absolute;
-    top: 195%;
-    left: 30.1%;
+    top: 190%;
+    left: 31.5%;
     font-family: "Momo Trust Display", sans-serif; 
     font-weight: 400;
     font-style: normal;
@@ -200,8 +297,8 @@ a:hover {
 .plantilla3 {
     color: #000;
     position: absolute;
-    top: 195%;
-    left: 50%;
+    top: 190%;
+    left: 52.2%;
     font-family: "Momo Trust Display", sans-serif; 
     font-weight: 400;
     font-style: normal;
@@ -210,8 +307,8 @@ a:hover {
 .plantilla4 {
     color: #000;
     position: absolute;
-    top: 195%;
-    left: 69.5%;
+    top: 190%;
+    left: 72.5%;
     font-family: "Momo Trust Display", sans-serif; 
     font-weight: 400;
     font-style: normal;
@@ -221,60 +318,140 @@ a:hover {
     position: absolute;
     top: 250%;
     left: 10%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
 }
 
 .questions2 {
     position: absolute;
     top: 260%;
     left: 10%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .ready {
     position: absolute;
-    top: 330%;
+    top: 334%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    padding-top: 5%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.Address {
+.email2 {
     position: absolute;
-    top: 350%;
-    left: 50%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 15px 10%;
-    transform: translate(-50%, -50%);
+    top: 337%;
+    left: 19%;
+    background-color: rgb(78, 78, 78);
+    border-radius: 5px;
+    padding-block: 16px;
+    padding-left: 15px;
+    padding-right: 450px;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+}
+
+.get2 {
+    position: absolute;
+    top: 340%;
+    left: 64.5%;
+    letter-spacing: 1.5px;
+    background-color: red;
+    border-radius: 5px;
+    padding-block: 15px;
+    padding-left: 20px;
+    padding-right: 80px;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .questions3 {
     position: absolute;
     top: 370%;
     left: 10%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #afafaf;
+}
+
+.questions3-2 {
+    position: absolute;
+    top: 377%;
+    left: 10%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .questions4 {
     position: absolute;
     top: 377%;
     left: 35%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .questions5 {
     position: absolute;
     top: 377%;
     left: 55%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .questions6 {
     position: absolute;
     top: 377%;
     left: 75%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.English {
+.english {
+    text-decoration: none;
     position: absolute;
     top: 410%;
     left: 10%;
+    background-color: rgb(78, 78, 78);
+    border-radius: 5px;
+    padding-block: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vnz {
+    position: absolute;
+    top: 420%;
+    left: 10%;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
